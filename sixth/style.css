@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+overflow: hidden;
+}
+body{
+    height: 100vh;
+    width: 100vw;
+   
+}
+.g
+{
+    color:black;
+    position: absolute;
+    z-index: 3;
+    top: 10px;
+    right: 50px;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-justify:inter-cluster;
+    /* height:800px; */
+    height: 400px;
+    padding: 20px;
+    position: absolute;
+    transition: background .3s linear;
+    
+}
+.container.active{
+    background-color: black; 
+    /* color: white;  */
+     height: 100vh;
+    width: 100vw;
+}
+p{
+     color: black;
+     z-index: 4;
+     position:relative;
+     
+}
+.container.active .g{
+    color:white;
+}
+.container.active p{
+    color: white;
+}

@@ -1,0 +1,22 @@
+*{
+   margin:0;
+   padding:0;
+   box-sizing: border-box;
+   overflow: hidden;
+   
+}
+.heart{
+  position: absolute;
+  /* transform: translateY(120px); */
+  font-size: 4rem ;
+  animation: fall 1s  linear forwards;
+}
+@keyframes fall {
+    0%{
+        transform: translateY(0px);
+    }
+    100%{
+        transform: translateY(105vh);
+    }
+    
+}
